@@ -1,0 +1,41 @@
+.taskView {
+  background: rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+.titleBox {
+  border-bottom: 1px solid hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 80%);
+}
+
+.taskList {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.input {
+  border: none !important;
+  background: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.input:active,
+.input:focus {
+  color: white !important;
+  border-bottom: 1px solid hsl(0, 0%, 30%) !important;
+}
+
+/* lmao bootstrap */
+.addon {
+  background: none !important;
+  border: none !important;
+  color: red !important;
+  font-size: 2rem !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+  font-weight: 300 !important;
+  margin-top: -5px !important;
+}
